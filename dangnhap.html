@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/dangnhap.css">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-----------register------>
+    <div class="register">
+        <h2>Đăng nhập <i class="fas fa-angle-double-right"></i> Đăng ký</h2>
+        <ul>
+            <li><a href="dangnhap.html">Đăng nhập</a></li>
+            <li><a href="">Đăng ký</a></li>
+
+        </ul>
+    </div>
+    <hr>
+    <div class="login-container">
+        <form class="form-login">
+            <h1>Đăng nhập</h1>
+            <div class="form-text">
+                <label>Username</label>
+                <input type="text">
+            </div>
+            <div class="form-text">
+                <label>Password</label>
+                <input type="password">
+            </div>
+            <button><a href="index.html">Đăng nhập</a></button>
+            <span>Bạn chưa có tài khoản?Đăng ký <a href="">Tại đây</a></span>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        const formLogin = document.querySelectorAll('.form-text input')
+        const formLabel = document.querySelectorAll('.form-text label')
+        for (let i = 0; i < 2; i++) {
+            formLogin[i].addEventListener('mouseover', function() {
+                formLabel[i].classList.add("focus")
+            })
+            formLogin[i].addEventListener('mouseout', function() {
+                if (formLogin[i].value == "") {
+                    formLabel[i].classList.remove("focus")
+                }
+
+            })
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <link rel="stylesheet" href="css/giohang.css">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img src="image/banner.jpg" alt="">
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="index.html"><img style="width: 150px;" src="image/logo.jpg" alt=""></a>
+                </li>
+                <li id="adress-form"><a href="#">Quận 12<i class="fas fa-sort-down"></i></a> </li>
+                <li><input type="text" placeholder="Bạn tìm gì...."><i class="fas fa-search"></i></li>
+                <li><a href="giohang.html"><button><i class="fas fa-shopping-cart"></i>Giỏ hàng</button></a></li>
+                <li id="register-form"><a href="#">Lịch sử đơn hàng</a></li>
+                <li><a href=""><span>Mua thẻ nạp ngay</span></a></li>
+                <li><a href="">24h Công nghệ</a></li>
+                <li><a href="hoidap.html">Hỏi đáp</a></li>
+                <li><a href="dangnhap.html">Đăng nhập</a></li>
+                <div class="adress-form">
+                    <div class="adress-form-content">
+                        <h2>Chọn địa chỉ nhận hàng<span id="adress-close">X Đóng</span></h2>
+                        <form action="">
+                            <p>Do ảnh hưởng của dịch, một số tỉnh/thành tạm ngưng phục vụ tại siêu thị, chỉ kinh doanh online.</p>
+                            <select name="">
+                                <option value="#">--Chọn địa điểm</option>
+                                <option value="#">Nhà riêng</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn quận/huyện</option>
+                                <option value="#">Quận 12</option>
+                            </select>
+                            <select name="">
+                                <option value="#">--Chọn phường/xã</option>
+                                <option value="#">Tân Chánh Hiệp</option>
+                            </select>
+                            <input type="text" placeholder="Số nhà, tên đường">
+                            <button>Xác nhận</button>
+                        </form>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <section class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href="dienthoai.html"><i class="fas fa-mobile-alt"></i>Điện thoại</a></li>
+                    <li><a href=""><i class="fas fa-laptop"></i>Laptop</a></li>
+                    <li><a href=""><i class="fas fa-tablet-alt"></i>Tablet</a></li>
+                    <li><a href=""><i class="fas fa-headphones-alt"></i>Phụ kiện<i style="margin-left:5px;" class="fas fa-sort-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Chuột</a></li>
+                                <li><a href="">Bàn phím</a></li>
+                                <li><a href="">Balo</a></li>
+                                <li><a href="">Camera</a></li>
+                                <li><a href="">Tai nghe</a></li>
+                                <li><a href="">Loa</a></li>
+                                <li><a href="">Thẻ nhớ</a></li>
+                                <li><a href="">Ổ cứng di động</a></li>
+                                <li><a href="">USB</a></li>
+                                <li><a href="">Phần mềm</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href=""><i class="fas fa-stopwatch-20"></i>Đồng hồ thông minh</a></li>
+                    <li><a href=""><i class="far fa-clock"></i>Đồng hồ thời trang</a></li>
+                    <li><a href=""><i class="fas fa-tv"></i>PC,Máy in<i style="margin-left:5px;" class="fas fa-sort-down"></i></a>
+                        <div class="submenu1">
+                            <ul>
+                                <li><a href="">Mực in</a></li>
+                                <li><a href="">Máy in</a></li>
+                                <li><a href="">Màn hình máy tính</a></li>
+                                <li><a href="">Máy tính để bàn</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Máy cũ giá rẻ</a></li>
+                    <li><a href="">Sim, thẻ cào</a></li>
+                    <li><a href="">Trả góp, điện nước</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------Slider----------------------- -->
+    <!-- <section class="slider">
+        <div class="container">
+            <div class="slider-content">
+                <div class="slider-content-left">
+                    <div class="slider-content-left-top-container">
+                        <div class="slider-content-left-top">
+                            <a href=""><img src="image/ip13.jpg" alt=""></a>
+                            <a href=""><img src="image/fold3.jpg" alt=""></a>
+                            <a href=""><img src="image/x70.jpg" alt=""></a>
+                            <a href=""><img src="image/reno.jpg" alt=""></a>
+                            <a href=""><img src="image/1.jpg" alt=""></a>
+                        </div>
+                        <div class="slider-content-left-top-btn">
+                            <i class="fas fa-chevron-left"></i>
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="slider-content-left-bottom">
+                        <li class="active">Iphone13/13 pro</li>
+                        <li>Galaxy Z Fold3</li>
+                        <li>Vivo X70pro</li>
+                        <li>Oppo Reno6</li>
+                        <li>Apple watch</li>
+                    </div>
+                </div>
+                <div class="slider-content-right">
+                    <li>
+                        <a href=""><img src="image/2.jpg" </a></li>
+                    <li>
+                        <a href=""><img src="image/3.jpg" </a></li>
+                    <li>
+                        <a href=""><img src="image/4.jpg" </a></li>
+                    <li>
+                        <a href=""><img src="image/5.jpg" </a></li>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- <section class="banner-one">
+        <div class="container">
+            <img src="image/ngang.jpg">
+        </div>
+    </section> -->
+    <!-------product order--------->
+    <section class="product">
+        <div class="container">
+            <div class="product-items">
+                <div class="product-item">
+                    <img src="image/item1.jpg">
+                    <div class="product-item-text">
+                        <p><span>600.000</span><sup>đ</sup></p>
+                        <h1>Iphone13 128GB</h1>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="product-item">
+                    <img src="image/hinh1.jpg">
+                    <div class="product-item-text">
+                        <p><span>500.000</span><sup>đ</sup></p>
+                        <h1>Asus Nitro 5 Gaming</h1>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="product-item">
+                    <img src="image/img1.jpg">
+                    <div class="product-item-text">
+                        <p><span>299.000</span><sup>đ</sup></p>
+                        <h1>Sạc dự phòng</h1>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="product-item">
+                    <img src="image/hinh2.jpg">
+                    <div class="product-item-text">
+                        <p><span>300.000</span><sup>đ</sup></p>
+                        <h1>Macbook Pro</h1>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+                <div class="product-item">
+                    <img src="image/img3.jpg">
+                    <div class="product-item-text">
+                        <p><span>399.000</span><sup>đ</sup></p>
+                        <h1>Tai nghe Bluetooth</h1>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="order">
+        <h2>Đặt Hàng</h2>
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Chọn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td style="display: flex; align-items: center;"><img src="image/item1.jpg">Iphone13 128GB</td>
+                        <td>
+                            <p><span>30.000.000</span><sup>đ</sup></p>
+                        </td>
+                        <td><input style="width:30px;outline: none;" type="number" value="2" min="0" </td>
+                            <td style="cursor: pointer;text-align: right;">Xoá</td>
+                    </tr>
+                    <tr>
+                        <td style="display: flex; align-items: center;"><img src="image/hinh1.jpg">Asus Nitro 5 Gaming</td>
+                        <td>
+                            <p><span>30.000.000</span><sup>đ</sup></p>
+                        </td>
+                        <td><input style="width:30px;outline: none;" type="number" value="2" min="1"> </td>
+                        <td style="cursor: pointer;text-align: right;">Xoá</td>
+                    </tr>
+                </tbody> -->
+            </table>
+            <div class="price-total">
+                <p>Tổng tiền:<span>0</span><sup>đ</sup></p>
+            </div>
+        </form>
+    </section>
+    <!--------footer------->
+    <hr>
+    <footer class="footer">
+        <div class="grid">
+            <div class="row">
+                <div class="column">
+                    <h3 class="footer_heading">Trang chủ</h3>
+                    <ul class="list">
+                        <li class="list-items">
+                            <a href="">Lịch sử mua hàng</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Cộng tác bán hàng</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Tìm hiểu trả góp</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Chính sách bảo hành</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="footer_heading">Giới thiệu công ty</h3>
+                    <ul class="list">
+                        <li class="list-items">
+                            <a href="">Tuyển dụng</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Gửi góp ý, khiếu nại</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Tìm siêu thị</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Xem bản mobile</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="footer_heading">Tổng đài hỗ trợ</h3>
+                    <ul class="list">
+                        <li class="list-items">
+                            <a href="">Gọi mua <mark>1800.1060</mark></a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Kỹ thuật <mark>1800.1763</mark></a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Khiếu nại <mark>1800.1062</mark></a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Bảo hành <mark>1800.1064</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3 class="footer_heading">Giới thiệu</h3>
+                    <ul class="list">
+                        <li class="list-items">
+                            <a href="">Điều khoản sử dụng</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Chính sách bảo mật</a>
+                        </li>
+                        <li class="list-items">
+                            <a href="">Quảng cáo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------product order     --->
+    -->
+    <script src="js/giohang.js"></script>
+</body>
+
+</html>
